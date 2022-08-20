@@ -32,10 +32,18 @@ div img{
    .detail-leaf img{
     width: 200px;
     height: 200px;
+    padding: 10px;
    }
    .detail-leaf{
     align-self: center;
    }
-   .detail-leaf img{
-    padding: 10px;
-   }
+   @media only screen and (max-width: 400px){
+    .content {
+        margin-top: 250px;
+    }
+    div img{
+        width: 50vw; 
+        height: 250px;
+        border-radius: 20px;
+    }
+}
