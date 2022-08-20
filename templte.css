@@ -4,6 +4,8 @@ body{
     box-sizing: none;
     position: absolute;
     overflow-x: hidden;
+    background-image: url(https://wallpaper.dog/large/20460007.jpg);
+    
 }
 .header{
     display: flex;
